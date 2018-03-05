@@ -47,8 +47,8 @@ def write_temp():
 	f.close()
 
 def email():
-	USER = 'it@dbs4pos.com'
-	PW = 'Dbs@1303!'
+	USER = 'user@test.com'
+	PW = 'mypassword'
 	#set up smtp server
 	con = smtplib.SMTP(host='smtp.office365.com', port=587)
 	con.starttls()
