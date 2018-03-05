@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#this a program for measuring temperature using a DS18B20 waterproof temperature sensor (adafruit.com) and a raspberry pi
 import os
 import glob
 import time
